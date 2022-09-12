@@ -11,5 +11,9 @@ class TestHelloworld {
 		String output = object.Display();
 		assertEquals("Hello Subhashri",output);
 	}
+	public static void main(String args[]) {
+		TestHelloworld object1 = new TestHelloworld();
+		object1.testResult();
+	}
 
 }
