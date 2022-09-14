@@ -15,6 +15,7 @@ class TestHelloworld extends Helloworld {
 	public static void main(String args[]) {
 		TestHelloworld object1 = new TestHelloworld();
 		object1.testResult();
+		System.out.println("Success");
 	}
 
 }
