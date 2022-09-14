@@ -1,12 +1,15 @@
-import  org.junit.Assert.*;				
+import static org.junit.Assert.*;
+
+
 import org.junit.Test;
+
 class TestHelloworld {
 	
 	Helloworld object = new Helloworld();
 	@Test
 	public void testResult() {
 		
-		String output = "Hello Subhashri";
+		String output = object.Display();
 		assertEquals("Hello Subhashri",output);
 	}
 	public static void main(String args[]) {
