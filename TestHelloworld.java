@@ -2,12 +2,12 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-class Testhelloworld extends helloworld {
+class TestHelloworld extends Helloworld {
 	
 	
 	@Test
 	public void testResult() {
-		helloworld ob = new helloworld();
+		Helloworld ob = new Helloworld();
 		String output = ob.Result();
 		assertEquals("Hello SUBHASHRI",output);
 	}
