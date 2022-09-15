@@ -5,6 +5,6 @@ public class helloworld
 	}
 	public String Result()
 	{
-	   return "Hello, World";
+	   return "Hello AMIRTHA";
 	}
 }
