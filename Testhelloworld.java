@@ -9,7 +9,7 @@ class Testhelloworld extends helloworld {
 	public void testResult() {
 		helloworld ob = new helloworld();
 		String output = ob.Result();
-		assertEquals("Hello, World",output);
+		assertEquals("Hello subhashri",output);
 	}
 
 }
